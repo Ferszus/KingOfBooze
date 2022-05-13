@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_menu.css" />
+    <title>Starting Menu</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="menu">
+        <span class="buttons" id="buttons">
+          <button id="dodaj" onclick="add_player()">Dodaj Gracza <br /></button>
+        </span>
+      </div>
+      <span class="menu" id="players"> </span>
+    </div>
+
+    <script>
+      var i = 0;
+      function add_player() {
+        if (i < 8) {
+          i = i + 1;
+          const where = document.getElementById("players");
+          where.innerHTML +=
+            '<div class="player-card" id="player-card' +
+            i +
+            '"><input type="text" class="name" id="name' +
+            i +
+            '" placeholder="Imie"><br><input type="number" class="waga" id="waga' +
+            i +
+            '"> Waga<br><input type="number" class="wzrost" id="wzrost' +
+            i +
+            '"> Wzrost (CM)</div>';
+        } else {
+          alert("MAX 8 GRACZY");
+        }
+        if (i == 1) {
+          document.getElementById("buttons").innerHTML +=
+            '<button id="zapiszbtn" onclick="save()">Zapisz</button>';
+        }
+      }
+
+      function save() {
+        //alert(i)
+        const tab = new Array(i);
+        //alert(tab.length)
+
+        for (x = 0; x < i; x++) {
+          tab[x] = new Array(4);
+          tab[x][0] = x + 1;
+          tab[x][1] = document.getElementById("name" + tab[x][0]).value;
+          tab[x][2] = document.getElementById("waga" + tab[x][0]).value;
+          tab[x][3] = document.getElementById("wzrost" + tab[x][0]).value;
+        }
+        console.log(tab);
+        localStorage.setItem("players", tab);
+        localStorage.setItem("numberofplayers", i);
+
+        var t = localStorage.getItem("players");
+        console.log(t);
+        window.location.href = "..";
+      }
+    </script>
+  </body>
+</html>

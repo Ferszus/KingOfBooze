@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
+:root {
+  --ciemny-pomarancz: #f29d35;
+  --sredni-pomarancz: #f2b138;
+  --pomarancz: #f2c53d;
+  --czarny: #121e26;
+  --bialy: #c4c4c4;
+}
+* {
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  transition: 0.1s;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin: 0;
+  background-color: var(--czarny);
+}
+.playerbar {
+  width: 100vw;
+  height: 3em;
+  display: block;
+  background-color: var(--ciemny-pomarancz);
+  display: flex;
+  justify-content: space-evenly;
+}
+.playerfish {
+  text-align: center;
+  position: relative;
+  font-size: 1.5rem;
+  color: var(--czarny);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  top: 13px;
+  background-color: var(--bialy);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 3em;
+  width: 6rem;
+  border-radius: 10px;
+}
+.playerfish::selection {
+  background-color: var(--czarny);
+  color: var(--bialy);
+}
+.maincourse {
+  position: relative;
+
+  display: block;
+  background-color: var(--bialy);
+  border-radius: 34px;
+  width: 80vw;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.maincourse div {
+  background-color: var(--ciemny-pomarancz);
+  width: 0.5%;
+  border-radius: 10px;
+  height: 90%;
+}
+.maincourse *::selection {
+  background-color: var(--czarny);
+  color: var(--bialy);
+}
+.leftcourse,
+.rightcourse {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  display: block;
+  width: 50%;
+  height: 85%;
+  border-radius: 5px;
+}
+p {
+  font-size: 2rem;
+  margin: 1%;
+}
+#porana {
+  text-align: center;
+  margin: 0 auto 2% auto;
+  font-size: 96px;
+  font-weight: 100;
+  margin-top: 1.5em;
+  color: var(--bialy);
+}
+#porana::selection {
+  background-color: var(--ciemny-pomarancz);
+  color: var(--czarny);
+}
+button {
+  width: 100%;
+  height: 8em;
+  background-color: #aeaeae;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+button:active {
+  box-shadow: 0px 8px 10px #ffffff;
+  opacity: 0.7;
+}
+/* Color Theme Swatches in Hex */
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-1-hex {
+  color: var(--bialy);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-2-hex {
+  color: var(--czarny);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-3-hex {
+  color: var(--pomarancz);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-4-hex {
+  color: var(--sredni-pomarancz);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-5-hex {
+  color: var(--ciemny-pomarancz);
+}
+
+/* Color Theme Swatches in RGBA */
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-1-rgba {
+  color: rgb(196, 196, 196);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-2-rgba {
+  color: rgba(17, 30, 38, 1);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-3-rgba {
+  color: rgba(242, 196, 60, 1);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-4-rgba {
+  color: rgba(242, 176, 55, 1);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-5-rgba {
+  color: rgba(242, 157, 53, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-1-hsla {
+  color: hsl(0, 0%, 77%);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-2-hsla {
+  color: hsla(202, 36, 11, 1);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-3-hsla {
+  color: hsla(45, 87, 59, 1);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-4-hsla {
+  color: hsla(39, 87, 58, 1);
+}
+.APEX-Legends-mobile-|-MOBA-game-UI-concept-design-5-hsla {
+  color: hsla(33, 88, 57, 1);
+}
