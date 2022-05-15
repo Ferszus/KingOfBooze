@@ -1,3 +1,26 @@
-const questions = ["Jaka jest ostatnia rzecz, której szukałeś w Google?", "Jaka jest najbardziej żenująca rzecz, jaką kiedykolwiek zrobiłeś?", "Jaka jest najdziwniejsza rzecz, jaką kiedykolwiek kupiłeś?", "Czy kiedykolwiek złamałeś prawo? Jeśli tak, to dlaczego?", "Jaka jest najbardziej dziecinna rzecz, którą wciąż robisz?", "Kto w tym pokoju ma największe poczucie humoru?", "Jaki jest najdziwniejszy trend, w którym kiedykolwiek brałeś udział?", "Kiedy ostatni raz skłamałeś i co to było?", "Jaka jest najgorsza rzecz, jaką kiedykolwiek zrobiłeś w pracy?", "Co jest powodem do zadowolenia, że Twoja rodzina o Tobie nie wie?", "Jaki był najgorszy błąd, który popełniłeś w swoim życiu?", "Czego najbardziej boisz się w życiu?", "Jaki jest sekret, którego nigdy nikomu nie zdradziłeś?", "Co większość ludzi myśli o Tobie, że jest prawdą, ale tak nie jest?", "Jaka jest najlepsza rada, jakiej komuś udzieliłeś?", "Co Twoim zdaniem sprawia, że związek jest toksyczny?", "Do czego masz słabość?", "Jaka jest najbardziej obrzydliwa rzecz, jaką kiedykolwiek zrobiłeś?", "Czy masz jakieś anonimowe konta w mediach społecznościowych?", "Jaki jest Twój najgorszy nawyk?", "Czy kiedykolwiek podarowałeś komuś prezent który dostałeś od kogoś?", "Jaką jedną rzecz zrobiłbyś, gdybyś wiedział, że nie będzie to miało żadnych konsekwencji?", "Jaka jest Twoja największa fantazja?", "Czy lubisz sprośne rozmowy?", "Czy masz jakieś fetysze?", "Co Cię najbardziej podnieca?", "Kogo najchętniej pocałowałbyś w tym pokoju?", "Jaka jest Twoja ulubiona część ciała u innej osoby?", "Jaka jest Twoja ulubiona pozycja seksualna?", "Czy kiedykolwiek spiknąłeś się z przyjacielem?"]
+const questions = ["Jaka jest ostatnia rzecz, której szukałeś w Google?", 
+                   "Jaka jest najbardziej żenująca rzecz, jaką kiedykolwiek zrobiłeś?", 
+                   "Jaka jest najdziwniejsza rzecz, jaką kiedykolwiek kupiłeś?", 
+                   "Czy kiedykolwiek złamałeś prawo? Jeśli tak, to dlaczego?", 
+                   "Jaka jest najbardziej dziecinna rzecz, którą wciąż robisz?", 
+                   "Kto w tym pokoju ma największe poczucie humoru?", 
+                   "Jaki jest najdziwniejszy trend, w którym kiedykolwiek brałeś udział?", 
+                   "Kiedy ostatni raz skłamałeś i co to było?", "Jaka jest najgorsza rzecz, jaką kiedykolwiek zrobiłeś w pracy?", 
+                   "Co jest powodem do zadowolenia, że Twoja rodzina o Tobie nie wie?", 
+                   "Jaki był najgorszy błąd, który popełniłeś w swoim życiu?", 
+                   "Czego najbardziej boisz się w życiu?", 
+                   "Jaki jest sekret, którego nigdy nikomu nie zdradziłeś?", 
+                   "Co większość ludzi myśli o Tobie, że jest prawdą, ale tak nie jest?", 
+                   "Jaka jest najlepsza rada, jakiej komuś udzieliłeś?", 
+                   "Co Twoim zdaniem sprawia, że związek jest toksyczny?", "Do czego masz słabość?", 
+                   "Jaka jest najbardziej obrzydliwa rzecz, jaką kiedykolwiek zrobiłeś?", 
+                   "Czy masz jakieś anonimowe konta w mediach społecznościowych?", 
+                   "Jaki jest Twój najgorszy nawyk?", "Czy kiedykolwiek podarowałeś komuś prezent który dostałeś od kogoś?",
+                   "Jaką jedną rzecz zrobiłbyś, gdybyś wiedział, że nie będzie to miało żadnych konsekwencji?", "Jaka jest Twoja największa fantazja?", 
+                   "Czy lubisz sprośne rozmowy?", "Czy masz jakieś fetysze?", "Co Cię najbardziej podnieca?", 
+                   "Kogo najchętniej pocałowałbyś w tym pokoju?", 
+                   "Jaka jest Twoja ulubiona część ciała u innej osoby?", "Jaka jest Twoja ulubiona pozycja seksualna?", 
+                   "Czy kiedykolwiek spiknąłeś się z przyjacielem?"
+                  ]
 
 export {questions}
